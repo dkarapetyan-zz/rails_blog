@@ -1,5 +1,6 @@
 source 'http://rubygems.org'
 gem 'rails'
+gem 'jquery-rails'
 gem 'sqlite3'
 gem 'gravatar_image_tag'
 gem 'will_paginate'
