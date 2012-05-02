@@ -9,7 +9,6 @@ group :development do
   gem 'guard-rspec'
   gem 'guard-livereload'
   gem 'yajl-ruby'
-  gem 'annotate', :git => 'git://github.com/ctran/annotate_models.git'
 end
 
 # Gems used only for assets and not required
