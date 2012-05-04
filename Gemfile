@@ -15,6 +15,7 @@ end
 # in production environments by default.
 group :assets do
   gem 'sass-rails'
+  gem 'bootstrap-sass'
   gem 'coffee-rails'
   gem 'uglifier'
 end
@@ -22,11 +23,12 @@ end
 gem 'jquery-rails'
 
 group :test do
-  gem 'capybara'
-  gem 'guard-spork'
-  gem 'rb-fsevent'
-  gem 'spork-rails'
+  #gem 'capybara'
   gem 'webrat'
+  gem 'guard-spork'
+  gem 'rb-fsevent', require: false
+  gem 'spork-rails'
+  gem 'factory_girl_rails'
 end
 
 group :production do
